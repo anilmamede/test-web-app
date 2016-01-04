@@ -12,7 +12,7 @@
 
 	<artifactId>test-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-EVA-RC2</version>
+	<version>1.0.0-EVA-RC3</version>
 	<name>test-web-app</name>
 
 	<repositories>
@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.fenixedu.ulisboa.themes</groupId>
 			<artifactId>themes-agregator</artifactId>
-		  <version>1.0.0-EVA-RC1</version>
+		  <version>1.0.0-EVA-RC4</version>
 		</dependency>
 	</dependencies>
 	<build>
