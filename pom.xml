@@ -15,6 +15,13 @@
 
 	<name>test-web-app</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.fenixedu</groupId>
+			<artifactId>fenixedu-academic</artifactId>
+			<version>5.3.0-RC1</version>
+		</dependency>
+	</dependencies>
 	<repositories>
 		<repository>
 			<id>ulisboa-repo</id>
@@ -31,7 +38,7 @@
 				<configuration>
 					<contextFile>tomcat-context.xml</contextFile>
 					<systemProperties>
-						<!-- Uncomment the next property if you want webservices to dump their 
+						<!-- Uncomment the next property if you want webservices to dump their
 							SOAP packages into tomcat's log -->
 						<!-- <com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump>true</com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump> -->
 					</systemProperties>
