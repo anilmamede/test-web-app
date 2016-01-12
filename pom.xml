@@ -12,7 +12,7 @@
 
 	<artifactId>test-web-app</artifactId>
 	<packaging>war</packaging>
-
+	<version>1.0.0-NEW_DEV_RC1</version>
 	<name>test-web-app</name>
 
 	<dependencies>
